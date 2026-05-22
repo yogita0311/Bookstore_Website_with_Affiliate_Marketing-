@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+margin:0px;
+padding:0px;
+font-family:"Poppins",sans-serif;
+box-sizing:border-box;
+outline:none;
+border:none;
+text-decoration:none;
+transition:all .2s linear;
+transition:width none;
+}
+html{
+font-size:80%;
+overflow-x:hidden;
+}
+.heading{
+text-align:center;
+justify-content:center;
+margin-top:50px;
+color:#434343;
+font-size:23px;
+}
+.border{
+width:130px;
+height:4px;
+background:purple;
+margin:13px auto;
+}
+.reviews .reviews-slider{
+width:100%;
+margin-top:80px;
+margin-left:100px;
+}
+.reviews .reviews-slider .box{
+border:1px solid #adadad;
+border-radius:13px;
+display:inline-block;
+padding:5px 5px 5px 5px;
+width:250px;
+height:295px;
+margin-right:4px;
+margin-left:10px;
+text-align:center;
+justify-content:center;
+}
+.reviews .reviews-slider .box:hover{
+box-shadow:2px 2px 5px 2px purple;
+}
+.reviews .reviews-slider .box img{
+padding-top:5px;
+height:80px;
+width:77px;
+border-radius:50%;
+object-fit:cover;
+} 
+.reviews .reviews-slider .box p{
+line-height:1.7;
+color:#666666;
+font-size:12px;
+}
+.reviews .reviews-slider .box h3{
+padding-top:10px;
+padding-bottom:10px;
+color:#434343;
+font-size:16px;
+}
+.reviews .reviews-slider .box .stars i{
+color:purple;
+padding-top:11px;
+font-size:13px;
+}
+
+
+
